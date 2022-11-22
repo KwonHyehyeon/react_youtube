@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import ReactPlayer from 'react-player'
+import Videos from './Videos'
 import { useParams } from 'react-router-dom'
 import { fetchAPI } from '../utils/fetchAPI'
 
