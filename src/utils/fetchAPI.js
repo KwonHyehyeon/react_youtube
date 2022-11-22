@@ -1,0 +1,25 @@
+import axios from 'axios'
+
+const BASE_URL = 'https://youtube-v31.p.rapidapi.com'
+
+const options = {
+  //   method: 'GET',
+  url: BASE_URL,
+  params: {
+    // q: '먹어볼래',
+    // part: 'snippet,id',
+    // regionCode: 'Kr',
+    maxResults: '50',
+    // order: 'date',
+  },
+  headers: {
+    'X-RapidAPI-Key': process.env.REACT_APP_REPID_API_KEY,
+    'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com',
+  },
+}
+
+export const fetchAPI = async (url) => {
+  const { data } = await axios.get(`${BASE_URL}/${url}`, options)
+
+  return data
+}
