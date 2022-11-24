@@ -16,7 +16,7 @@ export const categories = [
   { name: '떼껄룩', icon: <ImHeadphones /> },
   { name: '슈카월드', icon: <ImPacman /> },
   { name: '먹어볼래', icon: <ImGlass /> },
-  { name: '빽능 - SBS 옛날 예능', icon: <ImHappy /> },
+  { name: '빽능', icon: <ImHappy /> },
   { name: '알간지', icon: <ImEvil /> },
   { name: '베니케이크', icon: <ImReddit /> },
   { name: '오눅', icon: <ImCamera /> },
