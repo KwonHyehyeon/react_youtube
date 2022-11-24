@@ -24,7 +24,7 @@ const VideoConts = () => {
 
   const {
     snippet: { title, channelId, channelTitle },
-    statistics: { viewCount, likeCount },
+    statistics: { viewCount },
   } = videoDetail
 
   return (
