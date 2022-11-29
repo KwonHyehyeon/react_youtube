@@ -203,6 +203,26 @@
       margin-top: 130px;
     }
   }
+  .video__inner {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 128px !important;
+
+    .left {
+      width: 100% !important;
+      background-color: #111;
+      // .desc {
+      //   border-bottom: 3px solid #333;
+      // }
+      z-index: 1000;
+    }
+    .right.side {
+      width: 100% !important;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+  }
   .videos__inner {
     .box {
       width: 50%;
